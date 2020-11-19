@@ -69,4 +69,3 @@ else:
     print('玩  家  一：', deck1)
     print('玩  家  二：', deck2)
     print('地主玩家三：', deck3)
-
