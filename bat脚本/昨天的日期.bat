@@ -5,9 +5,9 @@ setlocal enabledelayedexpansion
 set today=%date:~8,2%
 set month=%date:~5,2%
 set year=%date:~0,4%
-rem set year=1704
-rem set today=01
-rem set month=12
+@REM set year=2024
+@REM set today=02
+@REM set month=02
 ::得到昨天的日期
 if %month:~0,1%==0 set /a month=%month:~1,1%*1
 if %today:~0,1%==0 set /a today=%today:~1,1%*1
